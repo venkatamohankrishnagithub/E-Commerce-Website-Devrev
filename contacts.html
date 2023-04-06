@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devrev Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />  
+    <script src="https://kit.fontawesome.com/e6f3d86b4f.js" crossorigin="anonymous"></script>
+    
+    <link rel="Stylesheet" href="style.css" />
+    
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="logo.jpg" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <p><center>__Let's Talk__</center></p>
+        
+    </section>
+
+    <div class="container">
+        <form action="" id="contactForm">
+                
+                <div class="inputBox">
+                
+                <input type="text" id="name" placeholder="Your name......">
+                
+                </div>
+                
+                <div class="inputBox">
+                
+                <input type="email" id="emailid" placeholder="Your emailid.....">
+                
+                </div>
+                
+                <div class="inputBox">
+                    
+                    <input type="text" id="msgcontent" placeholder="Your message.....">
+                </div>
+                
+                <div class="inputBox">
+                
+                <button type="submit" id="submit">Submit</button>
+                
+                </div>
+      
+        </form>
+      </div>
+
+    <secton id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletter</h4>
+            <p>Get updates on latest offers and many exciting deals.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </secton>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contacts</h4>
+            <p><strong>Xyz, anna nagr, delhi</strong></p>
+            <p><strong>Phone: +123 65465 67</strong></p>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+           <a href="#">About Us</a>
+           <a href="#">Terms and Conditions</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+           <a href="#">Sign In</a>
+           <a href="#">Help</a>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    <script src="contact.js"></script>
+    
+</body>
+</html>

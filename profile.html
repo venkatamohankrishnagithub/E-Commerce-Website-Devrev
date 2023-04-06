@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devrev Project</title>
+    <link rel="stylesheet" href="profile.css">
+   
+</head>
+<body>
+<div class="container-fluid">
+    <div class="form-box">
+        <h1 id="title">Profile-Page</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="namefield">
+                        <input type="text"id="name" placeholder="First Name">
+                    </div>
+
+                    <div class="input-field" id="namefield">
+                        <input type="text" id="nick_name" placeholder="Last Name">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" id="dob" placeholder="Date-Of-Birth">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" id="age" placeholder="Age">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" id="phone" placeholder="Phone">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" id="profession" placeholder="Profession">
+                    </div>
+
+                    <div id="container">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+
+            </form>
+        </div>
+    </div>
+    <script>
+        /*
+        let editbtn=document.getElementById("editbtn");
+        let savebtn=document.getElementById("savebtn")
+        let title=document.getElementById("title");
+
+        savebtn.onclick=function(){
+            namefield.style.maxHeight="0";
+            title.innerHTML="Profile-Page";
+            savebtn.classList.add("disable");
+        }
+
+        editbtn.onclick=function(){
+            namefield.style.maxHeight="0";
+            title.innerHTML="Profile-Page";
+            savebtn.classList.remove("disable");
+        }
+        */
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    <script src="profile.js"></script>
+   
+    </body>
+</html>
