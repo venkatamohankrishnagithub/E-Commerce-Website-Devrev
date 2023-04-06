@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devrev Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />  
+    <script src="https://kit.fontawesome.com/e6f3d86b4f.js" crossorigin="anonymous"></script>
+    <link rel="Stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="logo.jpg" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-product-image">
+            <img src="img/2.jpg" width="100%" id="mainimg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/2.jpg" width="100%" class="smallimg" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="img/a4.jpg" width="100%" class="smallimg" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="img/a3.jpg" width="100%" class="smallimg" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="img/a2.jpg" width="100%" class="smallimg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h4>Men's Fashion Shirts</h4>
+            <h2>450-rupees</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXl</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>This all-new white color king lion printed shirt is specially designed and crafted from a fine fabric of cotton. Magic cotton fabric is very soft and comfortable to wear. Another special thing about this printed shirt is its short sleeves and a classic lapel collar. Take a look at this table for more details.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Similar Collections</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/a1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Shirt</h5>
+                    <h4>450-Rupees</h4>
+                </div>
+                <a href="#"><i class="fa-sharp fa fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/a2.jpg" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Shirt</h5>
+                    <h4>600-Rupees</h4>
+                </div>
+                <a href="#"><i class="fa-sharp fa fa-cart-shopping"></i></a>
+            </div>
+            
+            <div class="pro">
+                <img src="img/new11.jpg" alt="">
+                <div class="des">
+                    <span>HRX</span>
+                    <h5>Shirt</h5>
+                    <h4>800-Rupees</h4>
+                </div>
+                <a href="#"><i class="fa-sharp fa fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/a7.jpg" alt="">
+                <div class="des">
+                    <span>Roadster</span>
+                    <h5>Shirt</h5>
+                    <h4>1200-Rupees</h4>
+                </div>
+                <a href="#"><i class="fa-sharp fa fa-cart-shopping"></i></a>
+            </div>
+        
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletter</h4>
+            <p>Get updates on latest offers and many exciting deals.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contacts</h4>
+            <p><strong>Xyz, anna nagr, delhi</strong></p>
+            <p><strong>Phone: +123 65465 67</strong></p>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+           <a href="#">About Us</a>
+           <a href="#">Terms and Conditions</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+           <a href="#">Sign In</a>
+           <a href="#">Help</a>
+        </div>
+
+    </footer>
+
+    <script>
+        var mainimg=document.getElementById("mainimg");
+        var smallimg=document.getElementsByClassName("smallimg");
+
+        smallimg[0].onclick=function(){
+            mainimg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            mainimg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            mainimg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick=function(){
+            mainimg.src=smallimg[3].src;
+        }
+    </script>
+    </body>
+</html>
